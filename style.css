@@ -1,0 +1,66 @@
+/* Estilização geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0D1B2A;
+}
+
+/* HEADER - fundo escuro, texto branco */
+header {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #1B3A5C;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* MAIN - fundo escuro, texto branco */
+main {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo do título do post - contorno novo e menor */
+main h2 {
+    color: #FFFFFF;
+    font-size: 1.8em;                /* Título um pouco menor */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #FF6B35; /* Contorno laranja/vermelho */
+    padding-bottom: 3px;              /* Contorno bem fininho */
+    display: block;                  /* Agora ocupa toda a largura */
+    width: 100%;                     /* Faz o contorno passar por todo o fundo */
+}
+
+/* Estilo do parágrafo do post */
+main p {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilo do autor */
+.autor {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-style: italic;
+}
